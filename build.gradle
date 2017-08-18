@@ -5,7 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.0'
+        classpath 'com.android.tools.build:gradle:2.3.3'
         classpath 'com.dicedmelon.gradle:jacoco-android:0.1.1'
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -33,7 +33,7 @@ allprojects {
 
         libraries = [
               appCompat         : 'com.android.support:appcompat-v7:24.2.1',
-              googlePlayServices: 'com.google.android.gms:play-services-location:9.6.1',
+              googlePlayServices: 'com.google.android.gms:play-services-location:10.2.0',
 
               junit             : 'junit:junit:4.12',
               assertJ           : 'com.squareup.assertj:assertj-android:1.1.1',
